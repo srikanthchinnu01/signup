@@ -1,0 +1,124 @@
+body{
+  font-family: Calibri, Helvetica, sans-serif;
+  background-image:url(../public/images/background.jpg); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40%;
+  margin: auto;
+  margin-top: 15px;
+  color: black;
+  
+}
+
+.container {
+    padding: 50px;
+  background-color: rgb(165, 178, 181);
+  border-radius: 15px;
+}
+
+input[type=text], input[type=password], textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 15px;;
+  
+}
+input[type=text]:focus, input[type=password]:focus {
+  /* background-color: orange; */
+  outline: none;
+
+}
+ div {
+            padding: 10px 0;
+         }
+hr {
+  border: 3px solid #000000;
+  margin-bottom: 25px;
+  
+}
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.registerbtn:hover {
+  opacity: 1;
+}
+textarea{
+    resize: none;
+}
+h1{
+  color: rgb(8, 17, 19);
+}
+meter{
+  width:100%;
+}
+p{
+  color: red;
+}
+.PhoneInputInput {
+  flex: 1 1;
+  min-width: 0;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+
+@media only screen and(max-width:480px)
+{
+  body{
+    font-family: Calibri, Helvetica, sans-serif;
+    background-color: pink;
+    width: 100%;
+    margin: auto;
+  }
+  
+ 
+  
+  input[type=text], input[type=password], textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 10px;;
+    
+  }
+  input[type=text]:focus, input[type=password]:focus {
+    /* background-color: orange; */
+    outline: none;
+  
+  }
+   div {
+              padding: 10px 0;
+           }
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  .registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+ #button{
+  width: 100%;
+ }
+
+}
+
+
